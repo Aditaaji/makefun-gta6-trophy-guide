@@ -1,3 +1,7 @@
+// Built in this session: the guide in app/ is the Leonida Trophy Guide — 55 trophies,
+// each with a cited guide in our own words, a roadmap to the Platinum and a
+// possibly-missable flag on Positive Mental Attitude. The plumbing below is the
+// starter's, unchanged in behaviour.
 // A working gta6-trophy-guide-01 entry (Node 22, standard library only): the guide is this directory's app/ folder,
 // plain static files a browser opens at app/index.html (ES modules, CSS, no build step), offline: it loads nothing
 // over the network, and its trophy list and guides are app/data/trophies.json. The program hands it in: it copies app/
